@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/logo.svg" alt="浮光计时 Logo" width="96" height="96">
+</p>
+
 # 浮光计时 FloatTimer
 
 适用于比赛、课堂和演讲的 Windows 多窗口悬浮计时器。支持倒计时、正计时、情境分组，以及各分段使用不同的内置或自定义提示音。
@@ -6,12 +10,37 @@
 
 ## 下载与运行
 
-- [下载 v1.0.22 免安装版](https://github.com/memetics1980/FloatTimer/releases/download/v1.0.22/FloatTimer-1.0.22.zip)
+- **[⬇ 下载 Windows 免安装版 v1.0.22](https://github.com/memetics1980/FloatTimer/releases/download/v1.0.22/FloatTimer-1.0.22.zip)**
 - [查看 v1.0.22 发布页面](https://github.com/memetics1980/FloatTimer/releases/tag/v1.0.22)
+- [下载一页打印指南（Word）](https://github.com/memetics1980/FloatTimer/releases/download/v1.0.22/FloatTimer-Quick-Guide-1.0.22.docx)
 
 解压后双击 `FloatTimer.exe`，无需安装、管理员权限或联网。适用于 Windows 10 / 11，使用系统自带的 .NET Framework 4.x。
 
 请解压到可写入的文件夹，程序会在旁边保存 `FloatTimer.settings.json`。升级时先退出旧版，再替换程序，保留原设置文件。
+
+## 软件截图
+
+以下截图使用 1.0.22 的实际界面与独立示例配置。
+
+### 悬浮计时窗口
+
+多个透明计时窗口可叠放在演示背景上，按比赛环节排列。鼠标移入时显示开始、暂停、重置和设置按钮，移开后保留名称与时间。
+
+![悬浮计时窗口覆盖在比赛示例背景上，四个环节分别为知识问答、情境述评、回答问题和讲述中国故事](docs/images/floating-timers.png)
+
+图中左侧为示例演示背景，右侧为实际软件窗口；第一个窗口展示鼠标移入时的操作按钮。
+
+### 分组管理
+
+新建、复制或切换场景分组，使用 ↑ / ↓ 调整环节顺序，再一键右侧竖排。每组选手开始前，点击“全部重置”即可恢复初始状态。
+
+<img src="docs/images/group-management.png" alt="分组管理面板，展示新建组、复制组、四个环节、右侧竖排与全部重置" width="740">
+
+### 分段提示音设置
+
+同一计时器可以在不同时间点使用不同声音。下图演示已计时第 5 分钟使用内置短嘀、第 7 分钟使用自定义 WAV、第 15 分钟使用自定义 MP3；每段均可试听并保存，也可选择“沿用默认分段音”。
+
+<img src="docs/images/stage-sounds.png" alt="分段提示音设置：5 分钟短嘀、7 分钟自定义 WAV、15 分钟自定义 MP3，支持选择音频与逐段试听" width="590">
 
 ## 主要功能
 
