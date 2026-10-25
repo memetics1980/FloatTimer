@@ -1,0 +1,28 @@
+# Local builds and working files
+dist/
+outputs/
+work/
+bin/
+obj/
+.vs/
+.idea/
+*.exe
+*.pdb
+*.zip
+*.tmp
+*.log
+src/FloatTimer/FloatTimer.ico
+
+# Personal timer/group settings and imported custom audio
+FloatTimer.settings.json*
+*.settings.json
+*.settings.json.*
+*.damaged-*
+
+# Local credentials and editor state
+.env
+.env.*
+hosts.yml
+hosts.yaml
+.DS_Store
+Thumbs.db
